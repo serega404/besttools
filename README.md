@@ -29,7 +29,12 @@ http-server ./docs
 ## TODO
 
 - [ ] Add my logo (note: remove from .gitignore)
+- [ ] Customize the theme
 
 ## Thanks
 
 It works thanks to [Homer](https://github.com/bastienwirtz/homer) v25.05.2
+
+## Legal
+
+**Disclaimer**: All product names, trademarks, and registered trademarks are the property of their respective owners. Icons are used for identification purposes only and do not imply endorsement.

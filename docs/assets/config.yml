@@ -1,0 +1,135 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: "Best tools"
+subtitle: "by serega404"
+# logo: "logo.png"
+icon: "fa-solid fa-screwdriver-wrench" # Optional icon
+
+header: true
+footer: '<p>Сделано с <span class="has-text-danger">❤️</span> с помощью <a href="https://github.com/bastienwirtz/homer">Homer</a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+
+columns: "3"
+
+defaults:
+  layout: list
+
+# Optional message
+message:
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "👋 Welcome!"
+  content: "Here I decided to collect my favorite tools, which I often use. In most cases, these are open source online services/applications that allow you to quickly solve a problem. Only free or shareware tools are presented here."
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+#   - name: "Contribute!"
+#     icon: "fab fa-github"
+#     url: "https://github.com/bastienwirtz/homer"
+#     target: "_blank" # optional html a tag target attribute
+#   - name: "Documentation"
+#     icon: "fas fa-book"
+#     url: "https://github.com/bastienwirtz/homer/blob/main/README.md#table-of-contents"
+#   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+#   # see url field and assets/additional-page.yml.dist used in this example:
+  - name: "🇷🇺 RU версия"
+    url: "#russian" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Разработка"
+    icon: "fa-regular fa-bookmark"
+    class: highlight-inverted
+    items:
+      - name: "draw.io"
+        target: "_blank"
+        logo: "assets/tools/draw-io.svg"
+        subtitle: "Any chart editor"
+        tag: "dev"
+        url: "https://www.drawio.com/"
+      - name: "Insomnia"
+        target: "_blank"
+        logo: "assets/tools/insomnia.png"
+        subtitle: "A convenient client for working with the API"
+        tag: "dev"
+        url: "https://insomnia.rest/"
+      - name: "VS Code"
+        target: "_blank"
+        logo: "assets/tools/vscode.svg"
+        subtitle: "Universal Code Editor"
+        tag: "dev"
+        url: "https://code.visualstudio.com/"
+      - name: "DBeaver"
+        target: "_blank"
+        logo: "assets/tools/dbeaver.png"
+        subtitle: "A universal tool for working with databases"
+        tag: "database"
+        url: "https://dbeaver.io/"
+      - name: "drawDB"
+        target: "_blank"
+        logo: "https://drawdb-io.github.io/docs/img/logo.png"
+        subtitle: "Database Diagram Editor"
+        tag: "database"
+        url: "assets/tools/drawdb.png"
+
+  - name: "Обработка изображений"
+    icon: "fa-regular fa-bookmark"
+    class: highlight-inverted
+    items:
+      - name: "Photopea"
+        target: "_blank"
+        logo: "assets/tools/photopea.png"
+        subtitle: "An online alternative to Photoshop"
+        tag: "photo"
+        url: "https://www.photopea.com/"
+      - name: "PhotoGIMP"
+        target: "_blank"
+        logo: "assets/tools/photogimp.png"
+        subtitle: "A mod that changes the GIMP interface"
+        tag: "photo"
+        url: "https://github.com/Diolinux/PhotoGIMP"
+      - name: "Squoosh"
+        target: "_blank"
+        logo: "assets/tools/squoosh.png"
+        subtitle: "Compress any photos in a couple of seconds"
+        tag: "photo"
+        url: "https://squoosh.app/"
+
+  - name: "Android"
+    icon: "fa-brands fa-android"
+    class: highlight-inverted
+    items:
+      - name: "AYA"
+        target: "_blank"
+        logo: "assets/tools/aya.png"
+        subtitle: "A convenient Android debugger"
+        tag: "android"
+        url: "https://aya.liriliri.io/"
+        
+  - name: "Другое"
+    icon: "fa-regular fa-bookmark"
+    class: highlight-inverted
+    items:
+      - name: "OnlyOffice"
+        target: "_blank"
+        logo: "assets/tools/onlyoffice.svg"
+        subtitle: "The best FOSS office suite"
+        tag: "docs"
+        url: "https://www.onlyoffice.com/"
+        
+  - name: "AI"
+    icon: "fa-solid fa-star-of-life"
+    class: highlight-inverted
+    items:
+      - name: "DeepSite"
+        target: "_blank"
+        logo: "assets/tools/deepsite.png"
+        subtitle: "Beautiful Website Generator"
+        tag: "AI"
+        url: "https://deepsite.online/"
