@@ -1,0 +1,4 @@
+{
+    "yaml.schemaStore.url": "https://raw.githubusercontent.com/bastienwirtz/homer/main/.schema/config-schema.json",
+    "yaml.schemaStore.enable": true
+}
