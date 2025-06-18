@@ -1,0 +1,15 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch HTTP Server",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "http.server",
+            "args": ["-d", "./docs"],
+            "console": "integratedTerminal",
+            "preLaunchTask": "start-browser"
+        }
+    ]
+}
