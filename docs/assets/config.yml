@@ -77,6 +77,12 @@ services:
         subtitle: "Редактор диаграмм баз данных"
         tag: "database"
         url: "assets/tools/drawdb.png"
+      - name: "Gitea"
+        target: "_blank"
+        logo: "assets/tools/gitea.svg"
+        subtitle: "Самохостинговый Git-сервис"
+        tag: "dev"
+        url: "https://gitea.io/"
 
   - name: "Обработка изображений"
     icon: "fa-regular fa-bookmark"
