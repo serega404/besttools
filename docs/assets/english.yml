@@ -77,6 +77,12 @@ services:
         subtitle: "Database Diagram Editor"
         tag: "database"
         url: "assets/tools/drawdb.png"
+      - name: "Gitea"
+        target: "_blank"
+        logo: "assets/tools/gitea.svg"
+        subtitle: "Self-hosted Git service"
+        tag: "dev"
+        url: "https://gitea.io/"
 
   - name: "Image Processing"
     icon: "fa-regular fa-bookmark"
